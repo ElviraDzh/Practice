@@ -1,0 +1,70 @@
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background: url(./images/background-blue-pattern.png);
+  /* background-size: contain; */
+  height: calc(100vh - 1rem);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  width: 40%;
+  margin: 4rem 0 1.5rem 0;
+}
+.subtitle {
+  font-weight: 300;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+input {
+  width: 20rem;
+  height: 2rem;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 0.3rem;
+  margin-bottom: 0.7rem;
+}
+input::placeholder {
+  text-align: center;
+  color: #59aaf2;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.btn {
+  width: 20.5rem;
+  height: 2.5rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  padding-inline: 4px;
+  display: inline-block;
+  color: #2791ee;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.create-account-text {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.create-account-text span {
+  color: #1f5c91;
+}
+
+@media only screen and (max-height: 575.98px) and (orientation: landscape) {
+  .logo {
+    margin: 2rem 0 1rem 0;
+  }
+}
